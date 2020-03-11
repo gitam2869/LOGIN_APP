@@ -1,0 +1,60 @@
+<resources>
+    <!--string for app name-->
+    <string name="app_name">Login App</string>
+
+    <!--string for logo name-->
+    <string name="string_logo">G</string>
+
+    <!--string for email id sign in-->
+    <string name="string_email_hint">Email</string>
+
+    <!--string for password for sign in-->
+    <string name="string_password_sign_in">Password</string>
+
+    <!--string for forgot password-->
+    <string name="string_forgot_password">Forgot Password?</string>
+
+    <!--string for login button-->
+    <string name="string_login_button">Login</string>
+
+    <!--string for create new account for sign up -->
+    <string name="string_create_new_account_sign_up">CREATE NEW ACCOUNT</string>
+
+    <!--string for create new account for heading-->
+    <string name="string_create_new_account_heading">Create New Account</string>
+
+
+    <!--string for first name-->
+    <string name="string_first_name">First Name</string>
+
+    <!--string for last name-->
+    <string name="string_last_name">Last Name</string>
+
+    <!--string for phone number-->
+    <string name="string_phone_number">Phone Number</string>
+
+    <!--string for email id for sign up-->
+    <string name="string_email_id_sign_up">Email</string>
+
+    <!--string for password for sign up-->
+    <string name="string_password_sign_up">Password</string>
+
+    <!--string for date of birth-->
+    <string name="string_birth_of_date">Date of Birth</string>
+
+    <!--string for register-->
+    <string name="string_register">Register</string>
+
+    <!--string for log in-->
+    <string name="string_log_in">Log in</string>
+
+    <!--string for  welcome-->
+    <string name="string_welcome">Welcome</string>
+
+<!--    string for post-->
+    <string name="string_post">Post</string>
+
+<!--    strng fo gender-->
+    <string name="string_gender">Gender</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#225067</color>
+    <color name="colorPrimaryDark">#161E1D</color>
+    <color name="colorAccent">#ffff</color>
+
+    <!--color for text hint in edit text view-->
+    <color name="color_text_hint_color">#83FFFFFF</color>
+
+    <!--color for text view general-->
+    <color name="color_text_color_general">#FFFFFF</color>
+
+    <!--color for forgot password-->
+    <color name="color_forgot_password">#F14747</color>
+
+    <!--color for login button-->
+    <color name="color_login_button">#FFFFFF</color>
+
+    <!--color for create new account-->
+    <color name="color_create_new_account_sign_up">#2964B2</color>
+
+    <!--color for create new account heading-->
+    <color name="color_create_new_account_heading">#FFFFFF</color>
+
+    <color name="color_birthdate">#FFFFFF</color>
+    <color name="color_background_calendar">#DCE9D4</color>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_welcome"/>
+
+    <TextView
+        android:id="@+id/textView_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/string_logo"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="80sp"
+        android:fontFamily="@android:string/cancel" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_action_name" />
+
+        <EditText
+            android:id="@+id/editText_email_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/string_email_hint"
+            android:textSize="18sp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/color_text_hint_color"
+            android:textColor="@color/color_text_color_general"
+            android:background="@null" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_action_pass" />
+
+        <EditText
+            android:id="@+id/editText_pass_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/string_password_sign_in"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/color_text_hint_color"
+            android:textColor="@color/color_text_color_general"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_forgot_passowrd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_forgot_password"
+        android:textSize="14sp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/color_forgot_password"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_shape"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/string_login_button"
+        android:textSize="18sp"
+        android:textColor="@color/color_login_button" />
+    <TextView
+        android:id="@+id/textview_create_new_account_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/string_create_new_account_sign_up"
+        android:textSize="18sp"
+        android:textColor="@color/color_create_new_account_sign_up"
+        android:layout_gravity="center"
+        android:foreground="?attr/selectableItemBackgroundBorderless"/>
+<!--#2964B2-->
+
+</LinearLayout>
